@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Navbar</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="icon.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+    <div class="container-fluid">
+        <!-- add header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#navbar1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- add search form -->
+            <form class="navbar-form navbar-right" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search here">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+
+        <!-- add menu -->
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="nav navbar-nav" style="width:100%">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="abt.html" target="_self">About</a></li>
+                <li><a href="https://www.covidvisualizer.com/" target="_blank">Covid Visualizer</a></li>   
+                <li><a href="#">Contact Us</a></li>  
+            </ul>    
+        </div>
+    </div>
+</nav>
+
+
+
+
+<h2 style="text-align:center">Admin Profile </h2>
+
+<div class="card">
+  <img src="C:\Users\VIKU\Documents\er\IMG_3075.jpg" alt="John" style="width:100%">
+  <h1>Vikash Kumar </h1>
+  <p class="title">CEO & Founder</p>
+  <!-- <h2 style="color:red;">Family Center</h2>
+  <p style="color:SlateBlue;"><i>Where Families Matter</i></p> -->
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="https://twitter.com/Noiselesscoder"><i class="fa fa-twitter"></i></a>  
+    <a href="https://www.linkedin.com/in/vikash-kumar-040006166"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
